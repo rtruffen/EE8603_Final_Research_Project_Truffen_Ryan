@@ -1,1 +1,5 @@
 # EE8603_Final_Research_Project_Truffen_Ryan
+
+The king rook vs king pawn problem is a chess endgame where white is unable to win if the black pawn can safely advance. Machine learning algorithms were trained over 3195 instances of the problem to determine if white would win or lose depending on the position of the four chess pieces on the board. The analysis was performed through Pycaret, which allowed numerous machine learning algorithms to be implemented on the given dataset. The performance metric to determine the effectiveness of each model was chosen to be the F1 score, as it is a combination of the recall and precision allowing false positives and false negatives to impact the effectiveness of the algorithm. The algorithm with the best F1 score was determined to be a blended model of the Cat Boost Classifier, Decision Tree Classifier and XGB Classifier, with an average F1 score of 0.9944.
+
+URL to Loom video: https://www.loom.com/share/b6cb72f1a7324a729443a99b69207c0a?sid=1ea3ee26-6206-40e3-8097-2572ffc1e3f6  
